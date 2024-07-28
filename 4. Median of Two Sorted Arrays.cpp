@@ -27,7 +27,6 @@ private:
     {
         int size = result.size();
         int mid = size/2;
-
         if(size % 2 == 0)
         {
             return  (result[mid-1] + result[mid])/2.0;
